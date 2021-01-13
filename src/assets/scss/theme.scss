@@ -21,5 +21,7 @@
 // Theme core
 @import 'theme/theme';
 
+@import '../../../node_modules/@fontsource/roboto/index.css';
+
 // Custom core
 @import 'user';

@@ -20,7 +20,7 @@
 
     <!-- WELCOME
     ================================================== -->
-    <section data-jarallax data-speed=".8" class="pt-10 pt-md-14 pb-12 pb-md-15 overlay overlay-secondary overlay-80 jarallax" style="background-image: url(assets/img/location_e208.jpg);">
+    <section data-jarallax data-speed=".8" class="pt-10 pt-md-14 pb-12 pb-md-15 overlay overlay-primary overlay-80 jarallax" style="background-image: url(assets/img/location_e208.jpg);">
 
       <!-- Content -->
       <div class="container">
@@ -29,10 +29,10 @@
             
             <!-- Heading -->
             <h1 class="display-1 font-weight-bold text-white mb-6 mt-n3">
-              L'auto-partage électrique
+              L'auto-partage
             </h1>
             <h2>
-              local & rentable
+              <span class="text-success display-3" data-toggle="typed" data-options='{"strings": ["électrique", "local", "rentable"]}'></span>
             </h2>
           </div>
         </div> <!-- / .row -->
@@ -57,7 +57,7 @@
 
     </section>
 
-    <!-- CONCEPT
+    <!-- QUOI ? CONCEPT
     ================================================== -->
     <section class="py-8 py-md-11" id="payItDown">
       <div class="container">
@@ -66,18 +66,17 @@
             
             <!-- Badge -->
             <span class="badge badge-pill badge-primary-soft mb-3">
-              <span class="h6 text-uppercase">Concept</span>
+              <span class="h6 text-uppercase">What?</span>
             </span>
 
             <!-- Heading -->
             <h1>
               Nous louons des véhicules électriques
-              <span class="text-primary">pour une heure ou quelques mois</span>
+              <span class="text-primary">pour une heure ou quelques mois </span>
             </h1>
 
             <!-- Text -->
             <p class="lead text-gray-700 mb-7 mb-md-9">
-              En ville, pour rouler électrique :
             </p>
 
           </div>
@@ -89,7 +88,7 @@
             <div class="mb-8 mb-md-0">
 
               <!-- Image -->
-              <img src="assets/img/screenshots/desktop/rental.jpg" alt="..." class="screenshot img-fluid mw-md-110 float-right mr-md-6 mb-6 mb-md-0">
+              <img src="assets/img/phone.jpg" alt="..." class="screenshot img-fluid mw-md-80 float-right mr-md-6 mb-6 mb-md-0">
               
             </div>
 
@@ -100,8 +99,8 @@
             <div class="d-flex">
                 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle badge-primary-soft mt-1">
-                <span>1</span>
+              <div class="icon text-secondary">
+                @@include("assets/img/icons/duotone-icons/General/Like.svg")
               </div>
               
               <!-- Body -->
@@ -109,12 +108,12 @@
                 
                 <!-- Heading -->
                 <h3>
-                  Souscrivez une de nos offres
+                  Pratique
                 </h3>
 
                 <!-- Text -->
                 <p class="text-gray-700 mb-6">
-                  It takes a few minutes to add your information and home's photos.
+                  Les véhicules ont un parking et une borne réservée pour une expérience utilisateur idéale et sans stress 
                 </p>
 
               </div>
@@ -123,8 +122,8 @@
             <div class="d-flex">
                 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle badge-primary-soft mt-1">
-                <span>2</span>
+              <div class="icon text-secondary">
+                @@include("assets/img/icons/duotone-icons/General/Update.svg")
               </div>
               
               <!-- Body -->
@@ -132,12 +131,12 @@
                 
                 <!-- Heading -->
                 <h3>
-                  List your homes
+                  Tout compris
                 </h3>
 
                 <!-- Text -->
                 <p class="text-gray-700 mb-6">
-                  Let us know where your homes are located and when they're available.
+                  Nos locations incluent la voiture, le stationnement, le carburant, l'assurance et l'assistance
                 </p>
 
               </div>
@@ -146,8 +145,8 @@
             <div class="d-flex">
                 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle badge-primary-soft mt-1">
-                <span>3</span>
+              <div class="icon text-secondary">
+                @@include("assets/img/icons/duotone-icons/Shopping/Euro.svg")
               </div>
               
               <!-- Body -->
@@ -155,12 +154,12 @@
                 
                 <!-- Heading -->
                 <h3>
-                  Start welcoming guests
+                  Rentable
                 </h3>
 
                 <!-- Text -->
                 <p class="text-gray-700 mb-0">
-                  Get ready for an influx of guests and easy passive income.
+                  Les véhicules sont disponibles à la réservation sur les plus grandes plateformes de réservation en libre-service
                 </p>
 
               </div>
@@ -174,9 +173,9 @@
     
      <!-- BANDEAU PARTENAIRES
     ================================================== -->
-    <section class="py-12 py-md-8 bg-white">
-      <div class="container">
-          <div class="flickity-viewport-visible" data-flickity='{"imagesLoaded": false, "initialIndex": 5, "pageDots": false, "prevNextButtons": false, "contain": true, "wrapAround": false, "fullscreen": true, "autoPlay": true, "pauseAutoPlayOnHover": true}'>
+    <section class="py-12 py-md-8 bg-primary">
+      <div class="container-fluid">
+          <div class="flickity-viewport-visible" data-flickity='{"imagesLoaded": false, "initialIndex": 5, "pageDots": false, "prevNextButtons": false, "contain": true, "wrapAround": false, "fullscreen": true, "autoPlay": false, "pauseAutoPlayOnHover": true}'>
             <div class="col-4 col-md-3 col-lg-2 p-0 text-center">
               <!-- Brand -->
               <div id = "img-band1" class="img-fluid svg-shim text-white">
@@ -242,21 +241,6 @@
               </div>
             </div>
 
-            <div class="col-4 col-md-3 col-lg-2 p-0 text-center">
-              <!-- Brand -->
-              <div id = "img-band12" class="img-fluid svg-shim text-white">
-              </div>
-            </div>
-            <div class="col-4 col-md-3 col-lg-2 p-0 text-center">
-              <!-- Brand -->
-              <div id = "img-band13" class="img-fluid svg-shim text-white">
-              </div>
-            </div>
-            <div class="col-4 col-md-3 col-lg-2 p-0 text-center">
-              <!-- Brand -->
-              <div id = "img-band14" class="img-fluid svg-shim text-white">
-              </div>
-            </div>
           </div>
       </div> <!-- / .container -->
     </section>
@@ -270,18 +254,21 @@
 
             <!-- Badge -->
             <span class="badge badge-pill badge-primary-soft mb-3">
-              <span class="h6 text-uppercase">Coment fait-on ?</span>
+              <span class="h6 text-uppercase">How?</span>
             </span>
 
             <!-- Heading -->
             <h2>
-              Don't worry about pricing. <br>
-              <span class="text-primary">We maximize your earnings</span>.
+              Nous déployons nos véhicules<br>
+              <span class="text-primary">
+                en finançant les infrastructures
+              </span>
             </h2>
 
             <!-- Text -->
             <p class="font-size-lg text-gray-700 mb-6">
-              Instead of constantly worrying about when your home will be in demand, just share your availability and we will price based on popularity of your listing, seasonal factors, nearby events, and more.
+              Les ERPs sont souvent récicents à investir dans des infrastructures de recharge dont l'utilisation réelle sera faible. 
+              Notre service d'auto-partage répond à ce problème.
             </p>
 
             <!-- List -->
@@ -357,8 +344,8 @@
           <div class="col-12 col-md-6">
             
             <!-- Image -->
-            <img src="assets/img/illustrations/illustration-3.png" alt="..." class="img-fluid mw-md-130">
 
+            <img src="assets/img/honda.jpeg" alt="..." class="screenshot img-fluid mw-md-110 mr-md-6 mb-6 mb-md-0">
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
@@ -381,17 +368,17 @@
             
             <!-- Badge -->
             <span class="badge badge-pill badge-primary-soft mb-3">
-              <span class="h6 text-uppercase">Our blog</span>
+              <span class="h6 text-uppercase">Who?</span>
             </span>
 
             <!-- Heading -->
             <h1>
-              Stay up to date with rentals.
+              Hôtels -  Parkings - Stations-Service 
             </h1>
 
             <!-- Text -->
             <p class="font-size-lg text-muted mb-7 mb-md-9">
-              We share common trends and strategies for improving your rental income and making sure you stay in high demand.
+              Notre service d'auto-partage se greffe facilement dans tous vos lieux 
             </p>
 
           </div>
@@ -400,57 +387,11 @@
           <div class="col-12 col-md-6 col-lg-4 d-flex">
             
             <!-- Card -->
-            <div class="card mb-6 mb-lg-0 pt-14 overlay overlay-black overlay-30 bg-cover shadow-light-lg lift lift-lg" style="background-image: url(assets/img/photos/photo-8.jpg);">
-
-              <!-- Body -->
-              <a class="card-body mt-auto" href="#!">
-
-                <!-- Heading -->
-                <h3 class="text-white">
-                  Using Unsplash to improve your listing visibility
-                </h3>
-
-                <!-- Text -->
-                <p class="mb-0 text-white">
-                  Using free stock photos of your surrounding areas can skyrocket your popularity.
-                </p>
-
-              </a>
-
-              <!-- Meta -->
-              <a class="card-meta" href="#!">
-
-                <!-- Divider -->
-                <hr class="card-meta-divider border-white-20">
-
-                <!-- Avatar -->
-                <div class="avatar avatar-sm mr-2">
-                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
-                </div>
-                
-                <!-- Author -->
-                <h6 class="text-uppercase text-white-80 mr-2 mb-0">
-                  Casey Fyfe
-                </h6>
-                
-                <!-- Date -->
-                <p class="h6 text-uppercase text-white-80 mb-0 ml-auto">
-                  <time datetime="2019-05-02">May 02</time>
-                </p>
-
-              </a>
-              
-            </div>
-
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex">
-            
-            <!-- Card -->
             <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
 
               <!-- Image -->
               <a class="card-img-top" href="#!">
-                <img src="assets/img/photos/photo-7.jpg" alt="..." class="img-fluid">
+                <img src="assets/img/hotel.jpg" alt="..." class="img-fluid">
               </a>
 
               <!-- Shape -->
@@ -465,7 +406,78 @@
 
                 <!-- Heading -->
                 <h3>
-                  Photos should appeal to a sense of adventure
+                  Hôtels
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  Développez un service d'auto-partage qui apporte de la vie à vos lieux et un service pour vos clients
+                </p>
+
+              </a>
+                
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img src="assets/img/parking.jpg" alt="..." class="img-fluid">
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom svg-shim text-white">
+                  @@include("assets/img/shapes/curves/curve-1.svg")
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+
+                <!-- Heading -->
+                <h3>
+                  Parkings
+                </h3>
+
+                <!-- Text -->
+                <p class="mb-0 text-muted">
+                  Développez vos infrastructures de recharge avec un modèle économique viable capable de générer les revenus fonciers attendus
+                </p>
+
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            
+            <!-- Card -->
+            <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
+
+              <!-- Image -->
+              <a class="card-img-top" href="#!">
+                <img src="assets/img/stationservice.jpg" alt="..." class="img-fluid">
+              </a>
+
+              <!-- Shape -->
+              <div class="position-relative">
+                <div class="shape shape-fluid-x shape-bottom svg-shim text-white">
+                  @@include("assets/img/shapes/curves/curve-1.svg")
+                </div>
+              </div>
+
+              <!-- Body -->
+              <a class="card-body" href="#!">
+
+                <!-- Heading -->
+                <h3>
+                  Station-services
                 </h3>
 
                 <!-- Text -->
@@ -474,137 +486,8 @@
                 </p>
 
               </a>
-                
-              <!-- Meta -->
-              <a class="card-meta" href="#!">
-
-                <!-- Divider -->
-                <hr class="card-meta-divider">
-
-                <!-- Avatar -->
-                <div class="avatar avatar-sm mr-2">
-                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
-                </div>
-                
-                <!-- Author -->
-                <h6 class="text-uppercase text-muted mr-2 mb-0">
-                  Danny Devito
-                </h6>
-                
-                <!-- Date -->
-                <p class="h6 text-uppercase text-muted mb-0 ml-auto">
-                  <time datetime="2019-05-02">May 02</time>
-                </p>
-
-              </a>
 
             </div>
-
-          </div>
-          <div class="col-12 col-lg-4 d-flex">
-            
-            <!-- Card -->
-            <div class="card shadow-light-lg lift lift-lg">
-
-              <!-- Body -->
-              <a class="card-body my-auto" href="#!">
-
-                <!-- Heading -->
-                <h3 class="mt-auto">
-                  It's the little touches that make memories.
-                </h3>
-
-                <!-- Text -->
-                <p class="mb-0 text-muted">
-                  Once you have your rental posted, you should focus on how you can differentiate your home with little touches. Chocolates, specialty coffee, fast wifi, nice toiletries, or a personal note. Small touches can make a huge difference.
-                </p>
-
-              </a>
-
-              <!-- Meta -->
-              <a class="card-meta" href="#!">
-
-                <!-- Divider -->
-                <hr class="card-meta-divider">
-
-                <!-- Avatar -->
-                <div class="avatar avatar-sm mr-2">
-                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
-                </div>
-                
-                <!-- Author -->
-                <h6 class="text-uppercase text-muted mr-2 mb-0">
-                  Dave Gamache
-                </h6>
-                
-                <!-- Date -->
-                <p class="h6 text-uppercase text-muted mb-0 ml-auto">
-                  <time datetime="2019-05-02">May 02</time>
-                </p>
-
-              </a>
-
-            </div>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- TESTIMONIALS
-    ================================================== -->
-    <section class="py-8 py-md-11">
-      <div class="container">
-        <div class="row align-items-stretch">
-          <div class="col-12 col-md-5">
-            
-            <!-- Blockquote -->
-            <blockquote class="blockquote text-center">
-
-              <!-- Logo -->
-              <div class="img-fluid mb-5 mb-md-7 mx-auto svg-shim" style="max-width: 120px; color: #FF5A5F;">
-                @@include("assets/img/brands/logotype/airbnb.svg")
-              </div>
-              
-              <!-- Text -->
-              <p class="mb-5 mb-md-7">
-                "It was incredibly easy to post the unused apartment above my garage for rent and have since been paying my mortgage with the proceeds.”
-              </p>
-
-              <!-- Footer -->
-              <footer class="blockquote-footer mb-8 mb-md-0">
-                <div class="avatar mr-3">
-                  <img src="assets/img/avatars/avatar-2.jpg" class="avatar-img rounded-circle" alt="...">
-                </div> <span class="h6 text-uppercase">Bill Callan</span>
-              </footer>
-
-            </blockquote>
-
-          </div>
-          <div class="col-12 col-md-1 border-right my-n8 my-md-n11 d-none d-md-block"></div>
-          <div class="col-12 col-md-5 offset-md-1">
-            
-            <!-- Blockquote -->
-            <blockquote class="blockquote text-center">
-
-              <!-- Logo -->
-              <div class="img-fluid mb-5 mb-md-7 mx-auto svg-shim" style="max-width: 120px; color: #CB2027;">
-                @@include("assets/img/brands/logotype/pinterest.svg")
-              </div>
-              
-              <!-- Text -->
-              <p class="mb-5 mb-md-7">
-                “If you're going on vacation, you might as well get paid while you travel! Share your home with others and return to a nice paycheck when you arrive home.”
-              </p>
-
-              <!-- Footer -->
-              <footer class="blockquote-footer mb-0">
-                <div class="avatar mr-3">
-                  <img src="assets/img/avatars/avatar-1.jpg" class="avatar-img rounded-circle" alt="...">
-                </div> <span class="h6 text-uppercase">Jacob Thornton</span>
-              </footer>
-
-            </blockquote>
 
           </div>
         </div> <!-- / .row -->
@@ -613,31 +496,37 @@
 
     <!-- CTA
     ================================================== -->
-    <section data-jarallax data-speed=".8" class="py-12 py-md-14 overlay overlay-black overlay-80 jarallax" style="background-image: url(assets/img/covers/cover-8.jpg);">
-      <div class="container">
+    <section data-jarallax data-speed=".8" class="py-12 py-md-14 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/road.jpg);">
+      <div class="container" id="contact">
         <div class="row justify-content-center">
           <div class="col-12 col-md-1- col-lg-8 text-center">
-            
+            <!-- Badge -->
+            <span class="badge badge-pill badge-primary-soft mb-3">
+              <span class="h6 text-uppercase">Why?</span>
+            </span>
+
             <!-- Heading -->
             <h1 class="text-white">
-              Stop leaving money on the table.
+              <b>Nous développons la mobilité de demain</b>
             </h1>
 
             <!-- Text -->
-            <p class="font-size-lg text-white-80 mb-6 mb-md-8">
-              Post your home today and start entertaining welcome guests and collecting a paycheck without ever lifting a finger.
-            </p>
+            <h2 class="text-white mb-6 mb-md-8">
+              locale, durable, partagée
+            </h2>
 
             <!-- Button -->
-            <a href="#!" class="btn btn-pill btn-primary lift">
-              Get Started <i class="fe fe-arrow-right ml-2"></i>
+            <a data-toggle="modal" href="#modalSignupHorizontal" class="btn btn-pill btn-secondary lift">
+              Essayez-nous ! <i class="fe fe-arrow-right ml-2"></i>
             </a>
 
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
+      
     </section>
 
+    
     <!-- SHAPE
     ================================================== -->
     <div class="position-relative">

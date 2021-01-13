@@ -8,6 +8,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url(../../../node_modules/@fontsource/roboto/index.css);
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -13968,5 +13969,11 @@ body.compensate-for-scrollbar {
   .sidenav-right {
     right: 0; } }
 
+.html {
+  font-family: 'Roboto'; }
+
 .bg-dark {
   background-color: #5BA3AC !important; }
+
+.text-dark {
+  color: #5BA3AC !important; }
