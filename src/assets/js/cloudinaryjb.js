@@ -13,31 +13,20 @@
   var qovoltis = cl.imageTag('re-ve_logos/logo-qovoltis-211-or_ykhlzy', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var kitts = cl.imageTag('re-ve_logos/kitts_u3ywyg_mcahma', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var getaround = cl.imageTag('re-ve_logos/getaround_ysy2ew', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-
-  var audi = cl.imageTag('convoicar_website/audi_s5wkiy', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var firststop = cl.imageTag('convoicar_website/firststop_uku9rt', {effect: "colorize", color: "#ffffff", height: 40, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var topgarage = cl.imageTag('convoicar_website/topgarage_j5vofs', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var lexus = cl.imageTag('convoicar_website/lexus_pcqxzs', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var mini = cl.imageTag('convoicar_website/mini', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var vwvu = cl.imageTag('convoicar_website/vwvu_c875ni', {effect: "colorize", color: "#ffffff", height: 70, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var vw = cl.imageTag('convoicar_website/vw_bt0oor', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var toyota = cl.imageTag('convoicar_website/toyota', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var seat = cl.imageTag('convoicar_website/seat_uoveak', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var fiat = cl.imageTag('convoicar_website/fiat1234', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var jeep = cl.imageTag('convoicar_website/jeep_s8qpih', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var alfaromeo = cl.imageTag('convoicar_website/alfaromeo', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var bmw = cl.imageTag('convoicar_website/bmw2', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var maserati = cl.imageTag('convoicar_website/maserati', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  
+  var avere = cl.imageTag('re-ve_logos/arton7632_psypik', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
+  var stationf = cl.imageTag('re-ve_logos/stationf', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
+  var stationf = cl.imageTag('re-ve_logos/nissan', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
+  var ouicar = cl.imageTag('re-ve_logos/ouicar', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
+  var convoicar = cl.imageTag('re-ve_logos/convoicar', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
 
 if (document.getElementById("img-band1")!==null) {
-document.getElementById("img-band1").innerHTML = audi;
+document.getElementById("img-band1").innerHTML = getaround;
 };
 if (document.getElementById("img-band2")!==null) {
-document.getElementById("img-band2").innerHTML = audi
+document.getElementById("img-band2").innerHTML = convoicar
 };
 if (document.getElementById("img-band3")!==null) {
-document.getElementById("img-band3").innerHTML = getaround;
+document.getElementById("img-band3").innerHTML = ouicar;
 };
 if (document.getElementById("img-band4")!==null) {
 document.getElementById("img-band4").innerHTML = ibis;
@@ -55,13 +44,13 @@ if (document.getElementById("img-band8")!==null) {
   document.getElementById("img-band8").innerHTML = getaround;
   }
   if (document.getElementById("img-band9")!==null) {
-    document.getElementById("img-band9").innerHTML = jeep;
+    document.getElementById("img-band9").innerHTML = avere;
     }
     if (document.getElementById("img-band10")!==null) {
-      document.getElementById("img-band10").innerHTML = jeep;
+      document.getElementById("img-band10").innerHTML = stationf;
       }
       if (document.getElementById("img-band11")!==null) {
-        document.getElementById("img-band11").innerHTML = jeep;
+        document.getElementById("img-band11").innerHTML = nissan;
         }
 
 })();
