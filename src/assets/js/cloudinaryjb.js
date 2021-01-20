@@ -14,8 +14,7 @@
   var kitts = cl.imageTag('re-ve_logos/kitts_u3ywyg_mcahma', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var getaround = cl.imageTag('re-ve_logos/getaround_ysy2ew', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var avere = cl.imageTag('re-ve_logos/arton7632_psypik', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var stationf = cl.imageTag('re-ve_logos/stationf', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var stationf = cl.imageTag('re-ve_logos/nissan', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
+  var nissan = cl.imageTag('re-ve_logos/nissan', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var ouicar = cl.imageTag('re-ve_logos/ouicar', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var convoicar = cl.imageTag('re-ve_logos/convoicar', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
 
@@ -47,7 +46,7 @@ if (document.getElementById("img-band8")!==null) {
     document.getElementById("img-band9").innerHTML = avere;
     }
     if (document.getElementById("img-band10")!==null) {
-      document.getElementById("img-band10").innerHTML = stationf;
+      document.getElementById("img-band10").innerHTML = convoicar;
       }
       if (document.getElementById("img-band11")!==null) {
         document.getElementById("img-band11").innerHTML = nissan;
