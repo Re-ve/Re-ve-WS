@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    @@include("partials/head.html", {
+    "pageTitle": "Location utilitaire électrique montrouge"
+    })
+  </head>
+  <body class="pt-10 pt-md-0" style="overflow: visible;">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+    "classList": "navbar-light fixed-top bg-white border-bottom",
+    "container": "container"
+    })
+
+    <!-- CONTENT
+    ================================================== -->
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-4 position-md-sticky d-flex align-items-center vh-md-100" style="top: 0;">
+
+          <!-- Sidebar -->
+          <aside class="py-8 py-md-10">
+
+            <!-- Brand -->
+            <h1 >
+              100% électrique et tout inclus
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg mb-7 text-muted">
+              Nous louons sur des périodes d'1 mois ou plus des véhicules utilitaires électriques tout compris 
+            </p>
+
+            <!-- List group -->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+
+                <!-- Heading -->
+                <h6 class="d-flex mb-0 text-uppercase">
+                  Parking réservé<span class="ml-auto">INCLUS</span>
+                </h6>
+
+              </li>
+              <li class="list-group-item">
+
+                <!-- Heading -->
+                <h6 class="d-flex mb-0 text-uppercase">
+                  CARBURANT <span class="ml-auto">INCLUS</span>
+                </h6>
+
+              </li>
+              <li class="list-group-item">
+
+                <!-- Heading -->
+                <h6 class="d-flex mb-0 text-uppercase">
+                  ASSURANCE <span class="ml-auto">INCLUSE</span>
+                </h6>
+
+              </li>
+            </ul>
+
+          </aside>
+
+        </div>
+        <div class="col-12 col-md-7">
+
+          <!-- Images -->
+          <section class="pb-8 pt-md-12 pb-md-10">
+            <a class="d-block" data-fancybox data-width="840" data-heigt="1000" href="assets/img/portfolio/portfolio-21.jpg">
+              <img class="img-fluid rounded" src="assets/img/portfolio/portfolio-21.jpg" alt="...">
+            </a>
+            <a class="d-block mt-7" data-fancybox data-width="840" data-heigt="550" href="assets/img/portfolio/portfolio-22.jpg">
+              <img class="img-fluid rounded" src="assets/img/portfolio/portfolio-22.jpg" alt="...">
+            </a>
+            <a class="d-block mt-7" data-fancybox data-width="840" data-heigt="1000" href="assets/img/portfolio/portfolio-23.jpg">
+              <img class="img-fluid rounded" src="assets/img/portfolio/portfolio-23.jpg" alt="...">
+            </a>
+            <a class="d-block mt-7" data-fancybox data-width="840" data-heigt="550" href="assets/img/portfolio/portfolio-24.jpg">
+              <img class="img-fluid rounded" src="assets/img/portfolio/portfolio-24.jpg" alt="...">
+            </a>
+            <a class="d-block mt-7" data-fancybox data-width="840" data-heigt="840" href="assets/img/portfolio/portfolio-25.jpg">
+              <img class="img-fluid rounded" src="assets/img/portfolio/portfolio-25.jpg" alt="...">
+            </a>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- CTA
+    ================================================== -->
+    <section data-jarallax data-speed=".8" id="mission" class="py-12 py-md-14 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/road.jpg);">
+      <div class="container" id="contact">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-1- col-lg-8 text-center">
+            <!-- Badge -->
+            <span class="badge badge-pill badge-secondary-soft mb-3">
+              <span class="h6 text-uppercase">Notre mission</span>
+            </span>
+
+            <!-- Heading -->
+            <h2 class="text-white text-bold">
+              <b>Nous développons la mobilité de demain</b>
+            </h2>
+
+            <!-- Text -->
+            <h2 class="text-white mb-6 mb-md-8">
+              locale, durable, partagée
+            </h2>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      
+    </section>
+
+    
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+      "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+      
+  </body>
+</html>
