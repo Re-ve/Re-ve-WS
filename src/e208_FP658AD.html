@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "pageTitle": "Landkit"
+    })
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+    
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-light bg-white",
+      "container": "container"
+    })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/slite/FP658AD.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold text-white">
+              Instructions Location 
+            </h1>
+
+            <!-- Text -->
+            <h3 class="display-2 font-weight-bold text-white">
+              Peugeot e208
+            </h3>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <section class="pt-4 pt-md-5 pb-4 pb-md-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <!-- Heading -->
+            <h3 class="font-weight-bold text-primary">
+              Pour bien profiter de la location de votre véhicule 100% électrique, quelques recommandations :
+            </h3>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <!-- CATEGORIES
+    ================================================== -->
+    <section>
+      <div class="container">
+        
+        <div class="row">
+          <!-- Important -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-danger">
+                  Important
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  L'électricité vous est offerte mais à votre retour et avant de clôturer la location GetAround, <span class="bg-warning">vous devez impérativement remettre en charge le véhicule</span> sur la place réservée du parking. Pour cela, pensez à bien badger la borne pour lancer la recharge (à l'aide du badge de recharge sur les clés). Le voyant de la trappe clignote lorsque le véhicule est en charge. 
+                </p>
+
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+          <!-- Stationnement -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-primary">
+                  Stationnement
+                </h4>
+
+                <!-- Text -->
+
+                <ul>
+                  <li><p class="text-gray-700 text-justify">Le stationnement de votre véhicule électrique est gratuit dans tout Paris sur les places marquées payantes, dans la limite de 6h consécutives</p></li> 
+                  <li><p class="text-gray-700 text-justify">Il convient de ne pas le garer, ni de le restituer sur des places de recharge de véhicules électriques </p></li> 
+                  <li><p class="text-gray-700 text-justify">A votre retour, garez-vous en marche arrière sur la<span class="bg-warning"> place A33</span>. </p></li>   
+                </ul>
+
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+          <!-- Autonomie -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-primary">
+                  Autonomie
+                </h4>
+
+                <!-- Text -->
+                
+                <ul>
+                <li><p class="text-gray-700 text-justify">L'autonomie réelle de ce véhicule est de <span class="bg-warning">270 km</span>.</p></li> 
+                <li><p class="text-gray-700 text-justify">Nous vous garantissons un véhicule entièrement chargé avant votre départ. </p></li> 
+                </ul>
+                
+
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Recharge en cours de location -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-primary">
+                  Recharge en itinérance
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  Si vous avez besoin de recharger le véhicule pendant la location, vous pourrez :</p>
+                  <ul>
+                    <li><p class="text-gray-700 text-justify">Utiliser le câble de recharge sécurisé dans le coffre du véhicule qui peut se brancher sur une simple prise électrique</p></li> 
+                    <li><p class="text-gray-700 text-justify">Utiliser la cartes de recharge disponible sur les clés du véhicule qui vous donnent accès à différents réseaux de recharge (notamment Belib). <span class="bg-warning">Les consommations vous seront refacturées sans surcoûts</span> avec le détail précis de vos consommations </p></li> 
+                  </ul>
+                  <p class="text-gray-700 text-justify">
+                    En cas de trajet long, nous vous conseillons de bien planifier votre trajet pour éviter les galères.
+                  </p>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-danger">
+                  Attention temps de recharge
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  Les temps de recharge sont très variables en fonction des bornes et de leur puissance </p>
+                  <ul>
+                    <li><p class="text-gray-700 text-justify">Sur une simple prise, comptez en dizaines d'heures</p></li> 
+                    <li><p class="text-gray-700 text-justify">Sur une borne A/C T2, comptez en heures </p></li> 
+                    <li><p class="text-gray-700 text-justify">Sur une borne DC CCS-Combo, comptez en dizaines de minutes </p></li> 
+                  </ul>
+                  <p class="text-gray-700 text-justify">
+                    En cas de trajet long, nous vous conseillons de bien <span class="bg-warning">planifier votre trajet</span> pour éviter les galères.
+                  </p>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-secondary">
+                  Manuel Utilisateur
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  En cas besoin, vous pouvez consulter <a class="bg-warning" href="https://storage.googleapis.com/manuelutilisateur/Manuel_Peugeot_e208.pdf">ici le manuel utilisateur</a> de ce(te) Peugeot e208 jaune moutarde
+                  </p>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+
+
+      </div>
+    </section>
+
+    <!-- FORM
+    ================================================== -->
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Vous ne trouvez pas la réponse souhaitée ?
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              Vous pouvez joindre notre équipe au :
+            </p>
+          </div>
+        </div> <!-- / .row -->
+        <div class="row mb-7 mb-md-9">
+          <div class="col-12 col-md-4 text-center">
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4 text-primary">
+                
+              </a>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4 text-center border-left-md border-gray-300">
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4">
+                +33 7 57 90 80 40
+              </a>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4 text-center border-left-md border-gray-300">
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              
+            </h6>
+
+            <!-- Link -->
+            <a href="#!" class="h4">
+              
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+      "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+      
+  </body>
+</html>
