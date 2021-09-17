@@ -10,7 +10,7 @@
   var bpi = cl.imageTag('re-ve_logos/bpifrance_n121ze', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var ibis = cl.imageTag('re-ve_logos/Ibis_Hôtel_logo_2012_uv9vy9', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var mercure = cl.imageTag('re-ve_logos/Mercure_Hotels_Logo_2013.svg_vi8dv1', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
-  var qovoltis = cl.imageTag('re-ve_logos/logo-qovoltis-211-or_ykhlzy', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
+  var qovoltis = cl.imageTag('re-ve_logos/logo-yespark_bhvvkm', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var kitts = cl.imageTag('re-ve_logos/kitts_u3ywyg_mcahma', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var getaround = cl.imageTag('re-ve_logos/getaround_ysy2ew', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
   var avere = cl.imageTag('re-ve_logos/arton7632_psypik', {effect: "colorize", color: "#ffffff", height: 50, quality: 100, crop: "scale", format: "png"}).toHtml();
