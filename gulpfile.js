@@ -16,7 +16,7 @@ const replace = require('gulp-replace');
 const sass = require('gulp-sass');
 const uglify = require('gulp-uglify');
 const useref = require('gulp-useref');
-var deploy = require('gulp-gh-pages');
+var ghPages = require('gulp-gh-pages');
 
 // Define paths
 const paths = {
@@ -206,7 +206,7 @@ gulp.task('default', gulp.series(gulp.parallel('fileinclude', 'scss'), gulp.para
 /**
  * Push build to gh-pages
  */
-gulp.task('deploy', function () {
-  return gulp.src("./dist/**/*")
-    .pipe(deploy())
+ gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 });
