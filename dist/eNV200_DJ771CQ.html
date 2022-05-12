@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Primary Meta Tags -->
+    <title>eNV200 noir</title>
+    <meta name="title" content="re-ve : l'auto-partage électrique">
+    <meta name="description" content="Nous louons des véhicules 100% électrique pour une heure ou quelques mois">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://re-ve.fr/">
+    <meta property="og:title" content="re-ve : l'auto-partage électrique">
+    <meta property="og:description" content="Nous louons des véhicules 100% électrique pour une heure ou quelques mois">
+    <meta property="og:image" content="https://re-ve.fr/assets/img/logo_re_ve_png-200.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://re-ve.fr/">
+    <meta property="twitter:title" content="re-ve : l'auto-partage électrique">
+    <meta property="twitter:description" content="Nous louons des véhicules 100% électrique pour une heure ou quelques mois">
+    <meta property="twitter:image" content="https://re-ve.fr/assets/img/logo_re_ve_png-200.png">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/quill/dist/quill.core.css" />
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <title>eNV200 noir</title>
+
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Signup: Horizontal  -->
+    <div class="modal fade" id="modalSignupHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSignupHorizontalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="card card-row">
+            <div class="row no-gutters">
+              <div class="col-12 col-md-6 bg-cover card-img-left" style="background-image: url(./assets/img/photos/photo-8.jpg);">
+
+                <!-- Image (placeholder) -->
+                <img src="./assets/img/photo-8.jpg" alt="..." class="img-fluid d-md-none invisible">
+
+                <!-- Shape -->
+                <div class="shape shape-right shape-fluid-y svg-shim text-white d-none d-md-block">
+                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"/></svg>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-body">
+
+                  <!-- Close -->
+                  <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                  </button>
+
+                  <!-- Text -->
+                  <p class="mb-6 text-center text-muted">
+                    Nous vous recontacterons dans les plus brefs délais
+                  </p>
+
+                  <!-- Form -->
+                  <form class="mb-6" action = "https://formsubmit.co/cc819a3e007e2bfeef23a8498f7a9871" method="POST" >
+                    <input type="hidden" name="_webhook" value="https://n8n-kitts.herokuapp.com/webhook-test/reve">
+                    <input type="hidden" name="_subject" value="Nouveau Contact Re-ve"> 
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://re-ve.github.io/Re-ve-WS/">
+
+                    <!-- Email -->
+                    <div class="form-group">
+                      <label class="sr-only" for="modalSignupHorizontalEmail">
+                        Votre email
+                      </label>
+                      <input type="email" name="email" class="form-control" placeholder="Votre email">
+                    </div>
+
+                    <!-- Submit -->
+                    <button class="btn btn-block btn-primary" type="submit">
+                      Merci !
+                    </button>
+
+                  </form>
+
+                </div>
+              </div>
+
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/logo_re_ve_png-200.png" class="navbar-brand-img" alt="logo Re-ve">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <ul class="navbar-nav ml-auto">
+        
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#service">
+                  Service
+                </a>
+              </li>
+          
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#partenaires">
+                  Partenaires
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#mission">
+                  Mission
+                </a>
+              </li>
+        
+          </ul>
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-secondary lift ml-auto" data-toggle="modal" href="#modalSignupHorizontal">
+            Contactez-nous!
+          </a>
+
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/slite/DJ771CQ.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold text-white">
+              Instructions Location 
+            </h1>
+
+            <!-- Text -->
+            <h3 class="display-2 font-weight-bold text-white">
+              Nissan eNV200
+            </h3>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+      </div>
+    </div>
+
+    <section class="pt-4 pt-md-5 pb-4 pb-md-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <!-- Heading -->
+            <h3 class="font-weight-bold text-primary">
+              Pour bien profiter de la location de votre véhicule 100% électrique, quelques recommandations :
+            </h3>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <!-- CATEGORIES
+    ================================================== -->
+    <section>
+      <div class="container">
+        
+        <div class="row">
+          <!-- Important -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-danger">
+                  Important
+                </h4>
+
+                <!-- Text -->
+                <ul>
+                  <li><p class="text-gray-700 text-justify">L'électricité vous est offerte mais à votre retour et avant de clôturer la location GetAround, <span class="bg-warning">vous devez impérativement remettre en charge le véhicule</span> sur la place réservée du parking. Pour cela, pensez à bien badger la borne pour lancer la recharge (à l'aide du badge de recharge sur les clés). Le voyant de la trappe clignote lorsque le véhicule est en charge. </p></li>                <p class="text-gray-700 text-justify">
+                    <a href="https://re-ve.fr/recharge_eNV200.html">Plus d'infos, ici.</a> 
+                   </p>
+                  <li><p class="text-gray-700 text-justify">Il convient d'utiliser le badge du parking <span class="bg-warning">pour sortir</span> (sinon vous risquez d'être bloqué à votre retour) <span class="bg-warning">ET re-rentrer</span> (ne prenez pas de ticket sous peine d'une refacturation) </p></li> 
+                </ul>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+          <!-- Stationnement -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-primary">
+                  Stationnement
+                </h4>
+
+                <!-- Text -->
+
+                <ul>
+                  <li><p class="text-gray-700 text-justify">Le stationnement de votre véhicule électrique est gratuit dans tout Paris sur les places marquées payantes, dans la limite de 6h consécutives</p></li> 
+                  <li><p class="text-gray-700 text-justify">Il convient de ne pas le garer, ni de le restituer sur des places de recharge de véhicules électriques </p></li> 
+                  <li><p class="text-gray-700 text-justify">A votre retour, garez-vous en marche arrière sur la<span class="bg-warning"> place A07</span>. </p></li>   
+                </ul>
+
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+          <!-- Autonomie -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-primary">
+                  Autonomie
+                </h4>
+
+                <!-- Text -->
+                
+                <ul>
+                <li><p class="text-gray-700 text-justify">L'autonomie réelle de ce véhicule est de <span class="bg-warning">90 km</span>.</p></li> 
+                <li><p class="text-gray-700 text-justify">Nous vous garantissons un véhicule entièrement chargé avant votre départ. </p></li> 
+                <li><p class="text-gray-700 text-justify">Pour maximiser l'autonomie du véhicule, il convient d'utiliser le mode éco et d'enclencher le mode B (comme Break) sur le levier de vitesse (qui permet de récupérer l'énergie du freinage).</p></li> 
+                <li><p class="text-gray-700 text-justify">De plus, dans la mesure du possible, il est préférable de limiter l'utilisation du chauffage/de la climatisation. </p></li> 
+                </ul>
+                
+
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Recharge en cours de location -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-primary">
+                  Recharge en itinérance
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  Si vous avez besoin de recharger le véhicule pendant la location, vous pourrez :</p>
+                  <ul>
+                    <li><p class="text-gray-700 text-justify">Utiliser le câble de recharge sécurisé dans le coffre du véhicule qui peut se brancher sur une simple prise électrique</p></li> 
+                    <li><p class="text-gray-700 text-justify">Utiliser la cartes de recharge disponible sur les clés du véhicule qui vous donnent accès à différents réseaux de recharge (notamment Belib). <span class="bg-warning">Les consommations vous seront refacturées sans surcoûts</span> avec le détail précis de vos consommations </p></li> 
+                  </ul>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-danger">
+                  Attention temps de recharge
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  Les temps de recharge sont très variables en fonction des bornes et de leur puissance </p>
+                  <ul>
+                    <li><p class="text-gray-700 text-justify">Sur une simple prise, comptez en dizaines d'heures</p></li> 
+                    <li><p class="text-gray-700 text-justify">Sur une borne A/C T2, comptez en heures </p></li> 
+                    <li><p class="text-gray-700 text-justify">Sur une borne DC CCS-Combo, comptez en dizaines de minutes </p></li> 
+                  </ul>
+                  <p class="text-gray-700 text-justify">
+                    En cas de trajet long, nous vous conseillons de bien <span class="bg-warning">planifier votre trajet</span> pour éviter les galères.
+                  </p>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-lg mb-6 mb-md-8 lift lift-lg">
+              <div class="card-body text-center">
+                <!-- Heading -->
+                <h4 class="font-weight-bold text-white bg-secondary">
+                  Manuel Utilisateur & CV
+                </h4>
+
+                <!-- Text -->
+                <p class="text-gray-700 text-justify">
+                  En cas besoin, vous pouvez consulter <a class="bg-warning" href="https://storage.googleapis.com/manuelutilisateur/e-nv200-fourgon.pdf">ici le manuel utilisateur</a> de ce Nissan eNV200 noir.
+                  </p>
+                  <p class="text-gray-700 text-justify">
+                    En cas de contrôle, vous trouverez <a class="bg-warning" href="https://storage.googleapis.com/manuelutilisateur/CV/CV_DJ771CQ.pdf">ici la carte verte </a> et <a class="bg-warning" href="https://storage.googleapis.com/manuelutilisateur/CV/CG_DJ771CQ.pdf">ici les papiers </a> du véhicule.
+                </p>
+                <!-- Badge -->
+                
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+
+
+      </div>
+    </section>
+
+    <!-- FORM
+    ================================================== -->
+    <section>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Vous ne trouvez pas la réponse souhaitée ?
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9">
+              Vous pouvez joindre notre équipe au :
+            </p>
+          </div>
+        </div> <!-- / .row -->
+        <div class="row mb-7 mb-md-9">
+          <div class="col-12 col-md-4 text-center">
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4 text-primary">
+                
+              </a>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4 text-center border-left-md border-gray-300">
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              
+            </h6>
+
+            <!-- Link -->
+            <div class="mb-5 mb-md-0">
+              <a href="#!" class="h4">
+                +33 7 57 90 80 40
+              </a>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4 text-center border-left-md border-gray-300">
+            
+            <!-- Heading -->
+            <h6 class="text-uppercase text-gray-700 mb-1">
+              
+            </h6>
+
+            <!-- Link -->
+            <a href="#!" class="h4">
+              
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+            <a href="./index.html">
+              <img src="./assets/img/logo_re_ve_png-200.png" class="footer-brand img-fluid">
+            </a>
+            <!-- Text -->
+            <p class="text-primary mb-2">
+            </p>
+
+          </div>
+      
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              offre
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-white mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#service" class="text-reset">
+                  Notre service
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#savoirfaire" class="text-reset">
+                  Notre savoir-faire
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#partenaires" class="text-reset">
+                  Nos partenaires
+                </a>
+              </li>
+              <li>
+                <a href="#mission" class="text-reset">
+                  Notre mission
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Contact
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-white mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#modalSignupHorizontal" data-toggle="modal" class="text-reset">
+                  Contactez-nous
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#modalSignupHorizontal" data-toggle="modal" class="text-reset">
+                  Job
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#modalSignupHorizontal" data-toggle="modal" class="text-reset">
+                  Presse
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+        
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-white mb-0">
+              <li class="mb-3">
+                <a href="./mentions.html" class="text-reset">
+                  Mentions légales
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./rgpd.html" class="text-reset">
+                  RGPD
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/quill/dist/quill.min.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/lodash/lodash.min.js"></script>
+    <script src="./assets/libs/cloudinary-core/cloudinary-core.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+
+      
+  </body>
+</html>
