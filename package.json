@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "Landkit",
+  "name": "re-ve",
   "version": "2.0.0",
-  "description": "",
+  "description": "Repo du site www.re-ve.fr",
   "main": "gulpfile.js",
   "author": "Good Themes",
   "scripts": {
@@ -46,5 +46,14 @@
     "quill": "^1.3.7",
     "smooth-scroll": "^16.1.3",
     "typed.js": "^2.0.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Re-ve/Re-ve-WS.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Re-ve/Re-ve-WS/issues"
+  },
+  "homepage": "https://github.com/Re-ve/Re-ve-WS#readme"
 }
